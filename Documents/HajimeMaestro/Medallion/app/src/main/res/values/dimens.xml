@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c)  2014-2017 Mezue Studios, LLC
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~
+  -->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="dialog_icon_size">96dp</dimen>
+
+    <dimen name="list_image_right_pad">20.0dip</dimen>
+    <dimen name="list_margin">20dp</dimen>
+    <dimen name="no_width">0.0dip</dimen>
+    <dimen name="no_height">0dp</dimen>
+    <dimen name="list_item_height">70dp</dimen>
+    <dimen name="list_item_height_mini">40dp</dimen>
+    <dimen name="mini_margin">2dp</dimen>
+    <dimen name="finalcard_margin">12dp</dimen>
+    <dimen name="cards_elevation">2dp</dimen>
+    <dimen name="cards_padding">4dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="cards_text_margin">5dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="toolbar_contentInset">72dp</dimen>
+    <dimen name="request_item_padding_left">18dp</dimen>
+
+
+    <!-- Texts Sizes -->
+    <dimen name="text_big">20sp</dimen>
+    <dimen name="text_med">18sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_ultrasmall">14sp</dimen>
+    <dimen name="margin_medium_sm">5dp</dimen>
+
+
+</resources>

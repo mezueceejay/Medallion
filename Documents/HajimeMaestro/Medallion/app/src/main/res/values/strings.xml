@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2014-2017 Mezue Studios, LLC
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~
+  -->
+<resources>
+    <!--Application Name-->
+    <string name="app_name">Medallion</string>
+    <!--Applicatio Version No-->
+    <string name="version_no">v1.0</string>
+    <!-- Feature picture that appears above the description -->
+    <string name="theme_feature">medallion_banner</string>
+    <!-- Previews Pictures Names -->
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+    <string name="theme_preview3">preview3</string>
+    <!--Application Package Name-->
+    <string name="package_name">"com.cuid.mezuestudios.themes.medallion"</string>
+    <!--Theme Description-->
+    <string name="theme_description">Medallion icon pack is collection of metallic icons.</string>
+    <!--MainActivity Stuff-->
+    <string name="apply_theme">Apply Theme</string>
+    <string name="apply_desc">Select from a list of launchers</string>
+    <string name="apply_wallpaper">Wallpaper</string>
+    <string name="wall_desc">Select a wallpaper</string>
+    <string name="icons">Icons</string>
+    <string name="icons_desc">A preview of our rather interesting icons</string>
+    <string name="icon_request">Icon Request</string>
+    <string name="icon_desc">Send me a shortlist of unthemed icons</string>
+    <string name="about">About</string>
+    <string name="about_desc">Application/Developer Info.</string>
+    <string name="donate_link">https://ko-fi.com/A687NDC</string>
+    <!--About Stuff-->
+    <string name="dashboard_author">Medallion</string>
+    <string name="copyright_mezuestudios">© 2016 Mezue Studios, LLC. All Rights Reserved</string>
+    <string name="glamour_desc">Medallion icon pack is collection of metallic icons.</string>
+    <string name="paypal">Buy me a cup of coffee</string>
+    <string name="instagram">Instagram</string>
+    <string name="dev">Designer / Developer: @mezueceejay</string>
+    <!-- Icon Pack designer/owner e-mail -->
+    <string name="email_id">mezuestudios@gmail.com</string>
+    <!-- Mail subjects for simple e-mail and requests e-mail -->
+    <string name="email_subject">"Medallion"</string>
+    <string name="email_request_subject">"Medallion - Icon Requests"</string>
+    <string name="request_save_location">"/Medallion/Requests/"</string>
+    <!-- These things are needed for some launchers (Feel free to edit, though is not needed) -->
+    <string name="theme_title">@string/app_name</string>
+    <string name="theme_name">@string/theme_title</string>
+    <string name="developer_name">@string/iconpack_designer</string>
+    <string name="developerName">@string/developer_name</string>
+    <string name="theme_author">@string/developer_name</string>
+    <string name="authorName">@string/developer_name</string>
+    <string name="authorLink">@string/dev_link</string>
+    <string name="theme_info">@string/theme_description</string>
+    <string name="theme_ad_msg">@string/theme_description</string>
+    <string name="iconpack_designer">Mezue Ceejay</string>
+    <string name="developer_link">http://www.facebook.com/mezuestudios</string>
+    <string name="dev_link">http://www.facebook.com/mezuestudios</string>
+
+    <string-array name="tabs">
+        <item>LATEST</item>
+        <item>SYSTEM</item>
+        <item>GOOGLE APPS</item>
+        <item>GAMES</item>
+        <item>ALL</item>
+    </string-array>
+</resources>

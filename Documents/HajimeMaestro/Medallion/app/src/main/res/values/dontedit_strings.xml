@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)  2014-2017 Mezue Studios, LLC
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- Wallpapers Activity -->
+    <string name="title_activity_detailed_wallpaper">Detailed Wallpaper</string>
+    <string name="title_ab_detailed_wallpaper" />
+
+    <!-- Muzei Stuff -->
+    <string name="muzeisets_title">Refresh Source every:</string>
+    <string name="minutes">Minutes</string>
+    <string name="hours">Hours</string>
+    <string name="muzei_info">Note: This Settings may affect the update time of the Wallpapers info.</string>
+    <string name="justshare">Share</string>
+
+    <!-- Strings for Dropdown Menu & Requests -->
+    <string name="share">Share theme</string>
+    <string name="share_title">Share via</string>
+    <string name="send_title">Send via</string>
+    <string name="rate">Rate theme</string>
+    <string name="sendemail">Email developer</string>
+    <string name="changelog">See changelog</string>
+
+    <!-- Sharing theme -->
+    <string name="share_one">Check out this awesome icon pack by </string>
+    <string name="share_two">.\nGet it now at </string>
+
+    <!-- LauncherNotInstalled Dialog -->
+    <string name="lni_title"> Not Installed</string>
+    <string name="lni_content"> is currently not installed in your device.\nWould you like to install it from Google Play Store?</string>
+    <string name="cm_dialog_content"> is part of CyanogenMod (based) roms.\nWould you like to install it in your device?</string>
+    <string name="gnl_title">Google Now Launcher Not Compatible</string>
+    <string name="gnl_content">Google Now Launcher is NOT compatible with ANY Icon Packs. Please don\'t low rate the pack for this reason. There\'s a workaround that you can try by yourself, and it\'s the use of an external app that will help you apply the icons. Would you like to download it?</string>
+    <string name="extraapp">com.momocode.shortcuts</string>
+    <string name="lni_yes">Yes</string>
+    <string name="lni_no">No</string>
+    <string name="updateninelauncher">Please update Nine Launcher to latest version</string>
+
+    <string name="installed">Installed</string>
+    <string name="noninstalled">Not Installed</string>
+
+    <!-- Wallpapers Stuff -->
+    <string name="no_conn_title">No Connection Found</string>
+    <string name="no_conn_content">Wallpapers are stored on Cloud Server. Please connect to Internet and try again.</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="download_done">Download completed successfully Picture is located at </string>
+    <string name="apply">Apply</string>
+    <string name="set_as">Crop picture and set as…</string>
+    <string name="set_wall_title">Wallpaper set</string>
+    <string name="set_wall_content">Please, choose an option. Would you like to crop the picture? Or do you prefer to set it in its actual size?</string>
+    <string name="crop_wall">Crop Wall</string>
+    <string name="set_it">Set it now!</string>
+    <string name="save">Save</string>
+    <string name="done">Done!</string>
+    <string name="progress_dialog_title">Downloading wallpaper</string>
+    <string name="setting_wall_title">Setting pic as wallpaper</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="set_as_wall_done">Picture set as wallpaper successfully Go to Home screen and check it.</string>
+    <string name="error">Error</string>
+    <string name="wall_error">Sorry, previous action wasn\'t actually applied, because it seems there\'s no picture. Check your Internet connection and try again.</string>
+    <string name="json_error_toast">Error while downloading wallpapers info. Try again later.</string>
+
+    <!-- Some texts for Dialogs and Cards -->
+    <string name="close">Close</string>
+    <string name="advice">Advice</string>
+    <string name="dontshow">Don\'t show again</string>
+    <string name="web">WEBSITE</string>
+    <string name="amazon">AMAZON APP STORE</string>
+    <string name="fb">FACEBOOK</string>
+    <string name="gplus">GOOGLE+</string>
+    <string name="ratebtn">RATE</string>
+
+    <!-- Requests -->
+    <string name="loading_unthemed_apps">Loading unthemed apps. This may take a while…</string>
+    <string name="building_request">Building Request…</string>
+    <string name="request_advice">If you do not select any app for the icon request, it will be automatically generated with all your apps.</string>
+    <!-- Content in Request mails before the unthemed apps info -->
+    <string name="request_precontent">These apps are not themed. Thanks in advance.\n\n</string>
+
+
+    <string name="copyright">"Copyright© 2015.
+Licensed under CreativeCommons-Attribution License."</string>
+    <string name="apache_license">"Licensed under Apache 2.0 License."</string>
+    <string name="mit_license">"Licensed under MIT License."</string>
+    <string name="libs_section_title">"Implemented Libraries:"</string>
+
+    <string name="fab_author">"Future Simple - Melnykov"</string>
+    <string name="fab_web">https://github.com/futuresimple/android-floating-action-button</string>
+    <string name="fab_name">Floating Action Button</string>
+    <string name="fab_desc">
+		<![CDATA[
+        <b>Floating Action Button</b> is yet another library for drawing Material Design promoted actions.
+        ]]></string>
+
+    <string name="materialdialogs_author">Aidan Follestad</string>
+    <string name="materialdialogs_web">https://github.com/afollestad/material­dialogs</string>
+    <string name="materialdialogs_name">Material Dialogs</string>
+    <string name="materialdialogs_desc">
+		<![CDATA[
+        <b>Material Dialogs</b> is a beautiful, "easy-to-use", and customizable dialogs API, enabling you  to use Material design themed dialogs across all versions of Android.
+        ]]></string>
+
+    <string name="pkapplylauncher_author">Pkmmte Xeleon</string>
+    <string name="pkapplylauncher_web">https://github.com/pkmmte/PkApplyLauncher</string>
+    <string name="pkapplylauncher_name">PkApplyLauncher</string>
+    <string name="pkapplylauncher_desc">
+		<![CDATA[
+        <b>PkApplyLauncher</b> is a tool wrapper to make supporting launchers much simpler and organized. This mini "library" was developed to keep code as clean as possible while making perfect sense of it.
+        ]]></string>
+
+    <string name="pkrequestmanager_author">Pkmmte Xeleon</string>
+    <string name="pkrequestmanager_web">https://github.com/pkmmte/PkRequestManager</string>
+    <string name="pkrequestmanager_name">PkRequestManager</string>
+    <string name="pkrequestmanager_desc">
+		<![CDATA[
+        <b>PkRequestManager</b> is a helpful, yet simple, tool which makes it easy to load and send application icon requests for Android.
+        ]]></string>
+
+    <string name="shapeview_author">Siyamed</string>
+    <string name="shapeview_web">https://github.com/siyamed/android-shape-imageview</string>
+    <string name="shapeview_name">Android Shape Image View</string>
+    <string name="shapeview_desc">
+		<![CDATA[
+		<b>Android Shape Image View</b> provides a set of custom shaped android imageview components, and a framework to define more shapes. Implements both shader and bitmap mask based image views.
+		]]></string>
+
+    <string name="picasso_author">Square</string>
+    <string name="picasso_name">Picasso</string>
+    <string name="picasso_desc">
+        <![CDATA[
+        <b>Picasso</b> is a powerful image downloading and caching library for Android.
+        ]]></string>
+    <string name="picasso_web">http://square.github.io/picasso/</string>
+
+    <string name="okhttp_author">Square</string>
+    <string name="okhttp_name">OkHttp</string>
+    <string name="okhttp_desc">
+        <![CDATA[
+        <b>OkHttp</b> is an HTTP and SPDY client for Android and Java applications.
+        ]]></string>
+    <string name="okhttp_web">https://github.com/square/okhttp</string>
+
+    <string name="materialdrawer_author">Mike Penz</string>
+    <string name="materialdrawer_web">https://github.com/mikepenz/MaterialDrawer</string>
+    <string name="materialdrawer_name">MaterialDrawer</string>
+    <string name="materialdrawer_desc">
+        <![CDATA[
+        The <b>MaterialDrawer</b> library aims to provide the easiest possible implementation of a navigation drawer for your application.
+        ]]>
+    </string>
+
+</resources>

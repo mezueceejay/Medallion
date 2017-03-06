@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)  2014-2017 Mezue Studios, LLC
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~
+  -->
+<resources>
+    <color name="colorPrimary">#1b1b1b</color>
+    <color name="colorPrimaryDark">#151515</color>
+    <color name="colorAccent">#f7f7f7</color>
+    <!-- Don't Edit!!! -->
+    <color name="white">#ffffff</color>
+    <color name="light_bg">#fafafa</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="semitransparent_white">#b3ffffff</color>
+    <color name="dark_grey">#ff4d4d4d</color>
+    <color name="window_bg">@color/primary_dark</color>
+    <color name="black_semi_transparent">#b2000000</color>
+    <color name="dialogcontent">#6d6d6d</color>
+    <color name="theme_info_header">@color/primary</color>
+    <color name="theme_info">@color/primary</color>
+    <color name="theme">@color/primary</color>
+    <color name="divider_grey">#d4d4d4</color>
+    <color name="red">#f44336</color>
+    <color name="green">#4caf50</color>
+    <color name="ripple_accent">#1b1b1b</color>
+</resources>
