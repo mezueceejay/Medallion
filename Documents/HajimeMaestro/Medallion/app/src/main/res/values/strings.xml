@@ -18,8 +18,9 @@
 <resources>
     <!--Application Name-->
     <string name="app_name">Medallion</string>
-    <!--Applicatio Version No-->
-    <string name="version_no">v1.0</string>
+    <!--Application Version No-->
+    <string name="app_version">Version: 1.0.0</string>
+    <string name="build_version">Build Number: 100</string>
     <!-- Feature picture that appears above the description -->
     <string name="theme_feature">medallion_banner</string>
     <!-- Previews Pictures Names -->
@@ -27,34 +28,32 @@
     <string name="theme_preview2">preview2</string>
     <string name="theme_preview3">preview3</string>
     <!--Application Package Name-->
-    <string name="package_name">"com.cuid.mezuestudios.themes.medallion"</string>
+    <string name="package_name">"net.mezuestudios.cct.themes.medallion"</string>
     <!--Theme Description-->
     <string name="theme_description">Medallion icon pack is collection of metallic icons.</string>
     <!--MainActivity Stuff-->
     <string name="apply_theme">Apply Theme</string>
-    <string name="apply_desc">Select from a list of launchers</string>
+    <string name="apply_desc">Select a launcher</string>
     <string name="apply_wallpaper">Wallpaper</string>
     <string name="wall_desc">Select a wallpaper</string>
     <string name="icons">Icons</string>
-    <string name="icons_desc">A preview of our rather interesting icons</string>
+    <string name="icons_desc">Icons preview</string>
     <string name="icon_request">Icon Request</string>
-    <string name="icon_desc">Send me a shortlist of unthemed icons</string>
+    <string name="icon_desc">Unthemed icons request</string>
     <string name="about">About</string>
     <string name="about_desc">Application/Developer Info.</string>
     <string name="donate_link">https://ko-fi.com/A687NDC</string>
-    <!--About Stuff-->
-    <string name="dashboard_author">Medallion</string>
-    <string name="copyright_mezuestudios">© 2016 Mezue Studios, LLC. All Rights Reserved</string>
-    <string name="glamour_desc">Medallion icon pack is collection of metallic icons.</string>
-    <string name="paypal">Buy me a cup of coffee</string>
-    <string name="instagram">Instagram</string>
-    <string name="dev">Designer / Developer: @mezueceejay</string>
+
     <!-- Icon Pack designer/owner e-mail -->
     <string name="email_id">mezuestudios@gmail.com</string>
+    <string name="email_address">"mezuestudios@gmail.com"</string>
+
     <!-- Mail subjects for simple e-mail and requests e-mail -->
     <string name="email_subject">"Medallion"</string>
+    <string name="email_text">Something\'s up with Medallion</string>
     <string name="email_request_subject">"Medallion - Icon Requests"</string>
     <string name="request_save_location">"/Medallion/Requests/"</string>
+
     <!-- These things are needed for some launchers (Feel free to edit, though is not needed) -->
     <string name="theme_title">@string/app_name</string>
     <string name="theme_name">@string/theme_title</string>
@@ -62,18 +61,100 @@
     <string name="developerName">@string/developer_name</string>
     <string name="theme_author">@string/developer_name</string>
     <string name="authorName">@string/developer_name</string>
-    <string name="authorLink">@string/dev_link</string>
+    <string name="authorLink">@string/developer_link</string>
     <string name="theme_info">@string/theme_description</string>
     <string name="theme_ad_msg">@string/theme_description</string>
-    <string name="iconpack_designer">Mezue Ceejay</string>
-    <string name="developer_link">http://www.facebook.com/mezuestudios</string>
-    <string name="dev_link">http://www.facebook.com/mezuestudios</string>
 
+
+    <!--AboutActivity-->
+    <string name="developer">Developer</string>
+    <string name="iconpack_designer">Mezue Ceejay</string>
+    <string name="companyname">Mezue Studios, LLC</string>
+    <string name="developer_link">http://www.facebook.com/mezuestudios</string>
+    <string name="facebook_link">http://www.facebook.com/mezuestudios</string>
+    <string name="instagram_link">http://www.instagram.com/mezuestudios</string>
+    <string name="twitter_link">http://www.twitter.com/mezuestudios</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="amazon">Amazon App Store</string>
+    <string name="fb">Facebook</string>
+    <string name="gplus">Google+</string>
+    <string name="send_title">Send via</string>
+    <string name="email_error">Mail error</string>
+    <string name="send_mail">Email developer</string>
+
+
+    <!--WallpaperActivity-->
+    <string name="wallpaper_set">Wallpaper Set</string>
+    <string name="wallpaper_error">Error Setting Wallpaper</string>
+
+
+    <!--IconsActivity-->
     <string-array name="tabs">
         <item>LATEST</item>
         <item>SYSTEM</item>
-        <item>GOOGLE APPS</item>
+        <item>GOOGLE</item>
         <item>GAMES</item>
         <item>ALL</item>
+        <item>DRAWER</item>
     </string-array>
+
+    <!-- LauncherNotInstalled Dialog -->
+    <string name="lni_title"> Not Installed</string>
+    <string name="lni_content"> is currently not installed in your device.\nWould you like to install it from Google Play Store?</string>
+    <string name="cm_dialog_content"> is part of CyanogenMod (based) roms.\nWould you like to install it in your device?</string>
+    <string name="gnl_title">Google Now Launcher Not Compatible</string>
+    <string name="gnl_content">Google Now Launcher is NOT compatible with ANY Icon Packs. Please don\'t low rate the pack for this reason. There\'s a workaround that you can try by yourself, and it\'s the use of an external app that will help you apply the icons. Would you like to download it?</string>
+    <string name="extraapp">com.momocode.shortcuts</string>
+    <string name="lni_yes">Yes</string>
+    <string name="lni_no">No</string>
+    <string name="updateninelauncher">Please update Nine Launcher to latest version</string>
+
+    <string name="installed">Installed</string>
+    <string name="noninstalled">Not Installed</string>
+
+    <!-- Some texts for Dialogs and Cards -->
+    <string name="close">Close</string>
+    <string name="advice">Advice</string>
+    <string name="dontshow">Don\'t show again</string>
+
+    <!-- Requests -->
+    <string name="loading_unthemed_apps">Loading unthemed apps. This may take a while…</string>
+    <string name="building_request">Building Request…</string>
+    <string name="request_advice">If you do not select any app for the icon request, it will be automatically generated with all your apps.</string>
+    <!-- Content in Request mails before the unthemed apps info -->
+    <string name="request_precontent">These apps are not themed. Thanks in advance.\n\n</string>
+    <string name="apache_license">"Licensed under Apache 2.0 License."</string>
+    <string name="mit_license">"Licensed under MIT License."</string>
+    <string name="libs_section_title">"Implemented Libraries:"</string>
+    <string name="fab_author">"Future Simple - Melnykov"</string>
+    <string name="fab_web">https://github.com/futuresimple/android-floating-action-button</string>
+    <string name="fab_name">Floating Action Button</string>
+    <string name="fab_desc">
+		<![CDATA[
+        Floating Action Button is yet another library for drawing Material Design promoted actions.
+        ]]></string>
+
+    <string name="materialdialogs_author">Aidan Follestad</string>
+    <string name="materialdialogs_web">https://github.com/afollestad/material­dialogs</string>
+    <string name="materialdialogs_name">Material Dialogs</string>
+    <string name="materialdialogs_desc">
+		<![CDATA[
+        Material Dialogs is a beautiful, "easy-to-use", and customizable dialogs API, enabling you  to use Material design themed dialogs across all versions of Android.
+        ]]></string>
+    <string name="pkrequestmanager_author">Pkmmte Xeleon</string>
+    <string name="pkrequestmanager_web">https://github.com/pkmmte/PkRequestManager</string>
+    <string name="pkrequestmanager_name">PkRequestManager</string>
+    <string name="pkrequestmanager_desc">
+		<![CDATA[
+        PkRequestManager is a helpful, yet simple, tool which makes it easy to load and send application icon requests for Android.
+        ]]></string>
+    <string name="materialdrawer_author">Mike Penz</string>
+    <string name="materialdrawer_web">https://github.com/mikepenz/MaterialDrawer</string>
+    <string name="materialdrawer_name">MaterialDrawer</string>
+    <string name="materialdrawer_desc">
+        <![CDATA[
+        The MaterialDrawer library aims to provide the easiest possible implementation of a navigation drawer for your application.
+        ]]>
+    </string>
 </resources>

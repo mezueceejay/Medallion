@@ -2,9 +2,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragment"
-    android:name="net.mezuestudios.cct.themes.medallion.AboutActivityFragment"
+    android:name="net.mezuestudios.cct.themes.medallion.IconRequestActivityFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:layout="@layout/fragment_about" />
-<!--Empty Fragment-->
+    tools:layout="@layout/fragment_icon_request" />

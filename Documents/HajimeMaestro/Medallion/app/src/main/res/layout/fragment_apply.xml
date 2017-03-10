@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:layout_alignParentLeft="true"
-        android:overScrollMode="always"
+        android:overScrollMode="never"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:divider="@color/transparent" />

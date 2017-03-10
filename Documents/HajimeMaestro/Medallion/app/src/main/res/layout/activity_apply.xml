@@ -20,7 +20,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-
+<!--hmmm dont know what to say here! :/-->
     <include layout="@layout/content_apply" />
 
 </android.support.design.widget.CoordinatorLayout>

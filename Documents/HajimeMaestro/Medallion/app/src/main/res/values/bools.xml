@@ -17,7 +17,6 @@
   ~
   -->
 <resources>
-
     <bool name="use_drawer_icons_bg">false</bool>
     <bool name="config_uiABBg">false</bool>
     <bool name="config_new_selectors">false</bool>

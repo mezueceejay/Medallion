@@ -7,13 +7,13 @@ android {
     defaultConfig {
         applicationId "net.mezuestudios.cct.themes.medallion"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -35,6 +35,5 @@ dependencies {
     compile 'com.balysv:material-ripple:1.0.1'
     compile 'com.afollestad.material-dialogs:core:0.9.1.0'
     compile 'com.getbase:floatingactionbutton:1.9.0'
-
     compile 'com.google.android.gms:play-services-appindexing:9.8.0'
 }

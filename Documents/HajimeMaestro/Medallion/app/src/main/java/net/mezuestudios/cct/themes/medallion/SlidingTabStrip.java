@@ -1,6 +1,5 @@
-package com.jahirfiquitiva.paperboard.tabs;
+package net.mezuestudios.cct.themes.medallion;
 
-import android.R;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

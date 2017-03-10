@@ -17,7 +17,7 @@
   ~
   -->
 <resources>
-
+<!--For Smart Launcher i guess!-->
     <!-- Skin colors -->
     <color name="homescreen_icon_text_color">#FFFFFFFF</color>
     <color name="outline_color">#FFFFFFFF</color>

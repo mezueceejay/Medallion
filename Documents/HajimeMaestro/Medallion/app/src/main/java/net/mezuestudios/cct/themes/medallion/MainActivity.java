@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 .emailPrecontent(getResources().getString(R.string.request_precontent))
                 .saveLocation(Environment.getExternalStorageDirectory().getAbsolutePath() + getResources().getString(R.string.request_save_location))
                 .build());
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +63,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent wallpaper_icon = new Intent(MainActivity.this, WallpaperActivity.class);
                 startActivity(wallpaper_icon);
+            }
+        });
+        CardView icons = (CardView) findViewById(R.id.icon_card);
+        icons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent icon_intent = new Intent(MainActivity.this, IconsActivity.class);
+                startActivity(icon_intent);
+            }
+        });
+        CardView iconreq = (CardView) findViewById(R.id.iconrequest_card);
+        iconreq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iconreq_intent = new Intent(MainActivity.this, IconRequestActivity.class);
+                startActivity(iconreq_intent);
             }
         });
         CardView about = (CardView) findViewById(R.id.about_card);

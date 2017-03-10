@@ -28,13 +28,14 @@
 	<item drawable="browser" />
 	<item drawable="calender" />
 	<item drawable="camera" />
-  <item drawable="clock" />
-  <item drawable="contacts"/>
+    <item drawable="clock" />
+    <item drawable="contacts"/>
 	<item drawable="downloads1" />
 	<item drawable="filemanager" />
 	<item drawable="messaging" />
 	<item drawable="phone" />
-  <item drawable="settings"/>
+    <item drawable="settings"/>
+    <item drawable="soundrecorder" />
 	<item drawable="simtoolkit"/>
 	<item drawable="videoplayer"/>
 	<item drawable=""/>
@@ -163,7 +164,7 @@
     <item drawable="zombierun" />
     <item drawable="cuttherope2" />
     <item drawable="megarun" />
-    <item drawable="cuttheropeexperiments" />
+    <item drawable="cuttheropeexperiments"/>
     <item drawable="riptide2" />
     <item drawable="kingdomrush" />
     <item drawable="rayman" />
@@ -245,13 +246,13 @@
     <item drawable="star_wars_tiny_death_star" />
     <item drawable="kingdomrush2" />
     <item drawable="scrabble" />
-    <item drawable="the_game_of_life" />
-    <item drawable="captain_america" />
+    <item drawable="the_gameof_life" />
+    <item drawable="captainamerica" />
     <item drawable="reaper" />
     <item drawable="templerunbrave" />
     <item drawable="bloons" />
     <item drawable="scramble" />
-    <item drawable="gun_and_blood" />
+    <item drawable="gunandblood" />
     <item drawable="monopoly" />
     <item drawable="city_slots" />
     <item drawable="neko_atsume" />
@@ -308,7 +309,11 @@
     <item drawable="cut_the_rope_time_travel" />
 
     <category title="Google" />
+    <item drawable="googleadmin" />
     <item drawable="googleallo" />
+    <item drawable="googleanalytics" />
+    <item drawable="googleanalyticsalt" />
+    <item drawable="googleapps" />
     <item drawable="googleauthenticator"/>
     <item drawable="googleboard" />
     <item drawable="googlecanary"/>
@@ -319,10 +324,12 @@
     <item drawable="googlechromedev" />
 	<item drawable="googleclassroom" />
 	<item drawable="googledocs"/>
+    <item drawable="googledrive" />
 	<item drawable="googleearth" />
     <item drawable="googlegoggles"/>
     <item drawable="googlehangout" />
     <item drawable="googlehome"/>
+    <item drawable="googleio" />
 	<item drawable="googlekeep" />
 	<item drawable="googlemail" />
 	<item drawable="googlemaps" />
@@ -331,13 +338,17 @@
     <item drawable="googlenow" />
     <item drawable="googlenowalt" />
 	<item drawable="googleopinionrewards" />
+    <item drawable="googlepdf" />
+    <item drawable="googlephotos" />
     <item drawable="googleplaygames"/>
     <item drawable="googleplaymusic" />
     <item drawable="googleplaystore" />
     <item drawable="googleplus" />
+    <item drawable="googlerewards" />
     <item drawable="googlesettings" />
 	<item drawable="googlesheets"/>
 	<item drawable="googleslides"/>
+    <item drawable="googletranslate" />
     <item drawable="googlewallet"/>
     <item drawable="googlezhuyin"/>
     <item drawable=""/>
@@ -358,21 +369,33 @@
 	<item drawable="adobereader" />
 	<item drawable="adwlauncher" />
     <item drawable="adwlauncherex" />
+    <item drawable="airdroid" />
+    <item drawable="alarmclockplus" />
+    <item drawable="amazon" />
+    <item drawable="amazon2" />
+    <item drawable="amazon3" />
+    <item drawable="amazonappstore" />
+    <item drawable="amazonkindle" />
+    <item drawable="amazonmp3" />
     <item drawable="androidauthority" />
 	<item drawable="androidcentral"/>
     <item drawable="androiddevicemanager" />
     <item drawable="androidpay" />
     <item drawable="androidwear" />
+    <item drawable="androidwear2" />
     <item drawable="antutu" />
+    <item drawable="anydo" />
     <item drawable="anydocal" />
     <item drawable="apexlauncher" />
+    <item drawable="apexnotifications" />
     <item drawable="autodesksketchbook" />
     <item drawable="avastantivirus" />
+    <item drawable="askfm" />
     <item drawable="astro" />
     <item drawable="avia" />
     <item drawable="aviatelauncher" />
-    <item drawable="" />
-    <item drawable="" />
+    <item drawable="atomlauncher" />
+    <item drawable="audible" />
     <item drawable="" />
     <item drawable="" />
     <item drawable="" />
@@ -399,18 +422,23 @@
 
 
     <category title="B" />
+    <item drawable="backgroundshd" />
     <item drawable="baconreader" />
     <item drawable="bankofamerica" />
+    <item drawable="barcodescanner" />
+    <item drawable="batterywidgetreborn" />
     <item drawable="bbcnews" />
     <item drawable="bbcsport" />
     <item drawable="bbcweather" />
     <item drawable="bbm" />
     <item drawable="beautifulwidgets" />
+    <item drawable="bestbuy" />
     <item drawable="bing" />
     <item drawable="bluebird" />
     <item drawable="bluetooth" />
+    <item drawable="bluetoothalt" />
     <item drawable="boomerang" />
-    <item drawable="" />
+    <item drawable="box" />
     <item drawable="" />
     <item drawable="" />
     <item drawable="" />
@@ -425,16 +453,18 @@
 
 
     <category title="C" />
-    <item drawable="" />
+    <item drawable="cereberus" />
+    <item drawable="chaton"/>
 	<item drawable="citibank"/>
 	<item drawable="cnn"/>
+    <item drawable="comedycentral" />
 	<item drawable="cleanmaster"/>
 	<item drawable="codesheet" />
+    <item drawable="coolart" />
 	<item drawable="cpuz"/>
+    <item drawable="craigslist" />
     <item drawable="crowdfire" />
-    <item drawable="cuttherope" />
-    <item drawable="cuttherope2" />
-    <item drawable="" />
+    <item drawable="crunchyroll" />
     <item drawable="" />
     <item drawable="" />
     <item drawable="" />
@@ -456,9 +486,10 @@
 
     <category title="E" />
     <item drawable="ebay" />
+    <item drawable="ebayalt" />
     <item drawable="endomondo" />
     <item drawable="eonline" />
-    <item drawable="" />
+    <item drawable="etsy" />
     <item drawable="esfileexplorer" />
     <item drawable="evernote" />
     <item drawable="" />
@@ -477,13 +508,14 @@
 	<item drawable="facebookpages"/>
 	<item drawable="fandango" />
 	<item drawable="feedly"/>
+    <item drawable="filecommander" />
 	<item drawable="firefox" />
 	<item drawable="fivehundredpx" />
 	<item drawable="fiverr" />
-    <item drawable="flappybird" />
+    <item drawable="flickr" />
     <item drawable="flipboard" />
-    <item drawable="" />
-    <item drawable="" />
+    <item drawable="fourshared" />
+    <item drawable="foursquare" />
     <item drawable="" />
     <item drawable="" />
 
@@ -509,7 +541,6 @@
 	<item drawable="iheartradio"/>
 	<item drawable="imdb" />
 	<item drawable="imo" />
-	<item drawable="ingress" />
     <item drawable="instagram" />
     <item drawable="" />
     <item drawable="" />
@@ -540,6 +571,11 @@
 	<item drawable="mangablitz" />
 	<item drawable="mangarock" />
 	<item drawable="marvel" />
+    <item drawable="microsoftaccount" />
+    <item drawable="microsoftexcel" />
+    <item drawable="microsoftonenote" />
+    <item drawable="microsoftpowerpoint" />
+    <item drawable="microsoftword" />
 	<item drawable="mxplayer" />
 	<item drawable="medallion" />
 	<item drawable="mega" />
@@ -557,28 +593,32 @@
 
 
     <category title="N" />
+    <item drawable="newyorktimes" />
 	<item drawable="netflix" />
 	<item drawable="nextlauncher" />
-	<item drawable="nfshotpursuit" />
 	<item drawable="ninegag" />
 	<item drawable="novalauncher" />
 	<item drawable="novasettings" />
+    <item drawable="novasettings2" />
 
     <category title="O" />
 	<item drawable="oovoo" />
 	<item drawable="olx" />
-	<item drawable="" />
-	<item drawable="" />
-	<item drawable="" />
+	<item drawable="oneweather" />
+	<item drawable="openvpn" />
+	<item drawable="opera" />
+    <item drawable="operamini" />
 
     <category title="P" />
+    <item drawable="paypal" />
 	<item drawable="photoshop" />
 	<item drawable="photoshopexpress" />
 	<item drawable="pinterest" />
 	<item drawable="picart" />
 	<item drawable="ppsspp" />
 	<item drawable="prisma" />
-	<item drawable="" />
+	<item drawable="pocket" />
+    <item drawable="pushbullet" />
 
     <category title="Q" />
 	<item drawable="quickpic" />
@@ -587,34 +627,54 @@
 	<item drawable="" />
 
     <category title="R" />
+    <item drawable="rdio" />
+    <item drawable="reart" />
 	<item drawable="rec" />
 	<item drawable="" />
 	<item drawable="" />
 	<item drawable="" />
 	<item drawable="" />
+
     <category title="S" />
+    <item drawable="shareit" />
 	<item drawable="skype" />
+    <item drawable="skydrive" />
 	<item drawable="smartlauncher" />
 	<item drawable="smartlauncherpro" />
 	<item drawable="snapchat" />
-	<item drawable="sunrisecalendar" />
+	<item drawable="sunrise" />
 	<item drawable="supersu" />
+    <item drawable="supersu2" />
 	<item drawable="stumbleupon" />
 	<item drawable="shazam" />
+    <item drawable="shealth" />
 	<item drawable="sololearn" />
-	<item drawable="soundclound" />
+    <item drawable="sololearnc" />
+    <item drawable="sololearncplus" />
+    <item drawable="sololearnjava" />
+    <item drawable="sololearnjavascript" />
+    <item drawable="sololearnsql" />
+	<item drawable="soundcloud" />
 	<item drawable="swiftkey" />
-	<item drawable="" />
-	<item drawable="" />
+	<item drawable="spotify" />
+	<item drawable="superbeam" />
+    <item drawable="syncme" />
 
     <category title="T" />
     <item drawable="tango" />
+    <item drawable="tasker" />
+    <item drawable="taskmanager" />
     <item drawable="telegram" />
     <item drawable="teslaunread" />
+    <item drawable="teslaunreadalt" />
     <item drawable="theweatherchannel" />
     <item drawable="tmz" />
     <item drawable="truecaller" />
-    <item drawable="" />
+    <item drawable="truecalleralt" />
+    <item drawable="tumblr" />
+    <item drawable="tuneinradio" />
+    <item drawable="tweetcaster" />
+    <item drawable="twicca" />
 	<item drawable="twitter" />
 	<item drawable="twogo" />
 	<item drawable="" />
@@ -623,15 +683,17 @@
 
     <category title="U" />
     <item drawable="uber" />
-    <item drawable="uberalt" />
+    <item drawable="uber2" />
 	<item drawable="ucbrowser" />
 	<item drawable="ucbrowserhd" />
 	<item drawable="ucbrowsermini" />
 	<item drawable="utorrent" />
 
     <category title="V" />
+    <item drawable="verge" />
     <item drawable="vimeo" />
     <item drawable="vevo" />
+    <item drawable="viber" />
 	<item drawable="vine" />
 	<item drawable="vlc" />
 	<item drawable="" />
@@ -640,13 +702,17 @@
     <category title="W" />
     <item drawable="wally" />
     <item drawable="wechat" />
+    <item drawable="widgetlocker" />
 	<item drawable="whatsapp" />
 	<item drawable="whatsappalt" />
 	<item drawable="wikipedia" />
+    <item drawable="wikipediaalt" />
+    <item drawable="wordpress" />
 	<item drawable="wwe" />
 	<item drawable="" />
 
     <category title="X" />
+    <item drawable="xboxlive" />
 	<item drawable="xboxsmartglass" />
 	<item drawable="xboxsmartglassbeta" />
 	<item drawable="xda" />
@@ -658,6 +724,8 @@
 
     <category title="Y" />
 	<item drawable="yahoo" />
+    <item drawable="yahooalt" />
+    <item drawable="yelp" />
 	<item drawable="youtube" />
 	<item drawable="youtubegaming" />
 	<item drawable="youtubestudio" />
@@ -667,5 +735,5 @@
     <item drawable="zedge" />
     <item drawable="zooper"/>
     <item drawable="zooperfree"/>
-
+    <item drawable="zoto"/>
 </resources>

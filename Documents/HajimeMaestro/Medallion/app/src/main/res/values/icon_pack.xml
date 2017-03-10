@@ -25,24 +25,24 @@
     <!-- LATEST ICONS -->
     <!-- All of your Latest icons listed here -->
     <string-array name="latest">
-          <item>googleallo</item>
-          <item>instagram</item>
-          <item>googlemymaps</item>
-          <item>googleboard</item>
-          <item>nfsnolimits</item>
-          <item>xboxlive</item>
-  		    <item>androidpay</item>
-          <item>bing</item>
-          <item>googlenow</item>
-          <item>googlecardboard</item>
-          <item>googleplaymusic</item>
-          <item>googleplaystore</item>
-          <item drawable="googlelauncher" />
-          <item drawable="wallpapers" />
-          <item drawable="photoscan" />
+             <item>googleallo</item>
+             <item>instagram</item>
+             <item>googlemymaps</item>
+             <item>googleboard</item>
+             <item>nfsnolimits</item>
+             <item>xboxlive</item>
+             <item>androidpay</item>
+             <item>bing</item>
+             <item>googlenow</item>
+             <item>googlecardboard</item>
+             <item>googleplaymusic</item>
+             <item>googleplaystore</item>
+             <item>googlelauncher</item>
+             <item>wallpapers</item>
+            <item>photoscan</item>
   		    <item>mangarock</item>
   		    <item>ucbrowserhd</item>
-          <item>ucbrowsermini</item>
+            <item>ucbrowsermini</item>
   		    <item>googlechrome</item>
   		    <item>android</item>
     </string-array>
@@ -58,17 +58,17 @@
     <!-- System icons listed here -->
     <string-array name="system">
 		<item>browser</item>
-    <item>calender</item>
-    <item>camera</item>
-    <item>clock</item>
+        <item>calender</item>
+        <item>camera</item>
+        <item>clock</item>
 		<item>contacts</item>
-    <item>downloads1</item>
-    <item>filemanager</item>
+        <item>downloads1</item>
+        <item>filemanager</item>
 		<item>messaging</item>
-    <item>phone</item>
-    <item>settings</item>
+        <item>phone</item>
+        <item>settings</item>
 		<item>simtoolkit</item>
-    <item>voicesearch</item>
+        <item>voicesearch</item>
 		<item>videoplayer</item>
 		<item>andy</item>
 		<item>andy</item>
@@ -97,22 +97,23 @@
         <item>googlechrome</item>
         <item>googlechromebeta</item>
         <item>googlechromedev</item>
-		    <item>googleclassroom</item>
-		    <item>googledocs</item>
+		<item>googleclassroom</item>
+		<item>googledocs</item>
         <item>googledrive</item>
-		    <item>googleearth</item>
+		<item>googleearth</item>
         <item>googlegoggles</item>
         <item>googlehangeout</item>
         <item>googleio</item>
         <item>googlehome</item>
-		    <item>googlekeep</item>
+		<item>googlekeep</item>
         <item>googlemail</item>
         <item>googlemaps</item>
         <item>googlemymaps</item>
-		    <item>googlemaps</item>
-		    <item>googlenewstand</item>
+		<item>googlemaps</item>
+		<item>googlenewstand</item>
         <item>googlenow</item>
-		    <item>googleopinionrewards</item>
+        <item>googlenowalt</item>
+		<item>googleopinionrewards</item>
         <item>googlepdf</item>
         <item>googlephotos</item>
         <item>googleplaygames</item>
@@ -124,10 +125,8 @@
         <item>googlesheets</item>
         <item>googleslides</item>
         <item>googletranslate</item>
-		    <item>googlewallet</item>
-		    <item>googlezhuyin</item>
-		    <item>andy</item>
-		    <item>andy</item>
+		<item>googlewallet</item>
+		<item>googlezhuyin</item>
     </string-array>
 
     <!-- GAMES ICONS -->
@@ -165,34 +164,54 @@
         <item>alarmclockplus</item>
         <item>amazon</item>
         <item>amazon2</item>
+        <item>amazon3</item>
         <item>amazonappstore</item>
         <item>amazonkindle</item>
-    		<item>androidauthority</item>
-    		<item>androidcentral</item>
+        <item>amazonmp3</item>
+    	<item>androidauthority</item>
+    	<item>androidcentral</item>
         <item>androidpay</item>
+        <item>anydo</item>
         <item>anydocal</item>
         <item>apexlauncher</item>
+        <item>apexnotifications</item>
+        <item>askfm</item>
         <item>astro</item>
+        <item>atomlauncher</item>
+        <item>audible</item>
         <item>autodesksketchbook</item>
         <item>avastantivirus</item>
         <item>aviatelauncher</item>
+        <item>backgroundshd</item>
         <item>bankofamerica</item>
         <item>bbcnews</item>
         <item>bbcsports</item>
+        <item>bccweather</item>
+        <item>bbm</item>
+        <item>beautifulwidgets</item>
+        <item>bestbuy</item>
         <item>bing</item>
         <item>bluebird</item>
         <item>bluetooth</item>
+        <item>bluetoothalt</item>
         <item>boomerang</item>
+        <item>box</item>
         <item>browser</item>
+        <item>calculator</item>
         <item>calender</item>
         <item>camera</item>
+        <item>cereberus</item>
+        <item>chaton</item>
         <item>cleanmaster</item>
         <item>clock</item>
 		<item>citibank</item>
 		<item>cnn</item>
+        <item>comedycentral</item>
 		<item>codesheet</item>
 		<item>contacts</item>
+        <item>coolart</item>
 		<item>cpuz</item>
+        <item>craigslist</item>
         <item>crowdfire</item>
         <item>deviantart</item>
 		<item>digg</item>
@@ -202,25 +221,34 @@
         <item>drippler</item>
         <item>dropbox</item>
         <item>ebay</item>
+        <item>ebayalt</item>
+        <item>email</item>
         <item>endomondo</item>
         <item>eonline</item>
 		<item>esfileexplorer</item>
         <item>facebook</item>
-        <item>facebooklite</item>
         <item>facebookmessenger</item>
 		<item>facebookpages</item>
         <item>fandango</item>
         <item>filemanager</item>
         <item>firefox</item>
 		<item>feedly</item>
+        <item>filecommander</item>
         <item>filemanager</item>
+        <item>flickr</item>
         <item>fivehundredpx</item>
 		<item>fiverr</item>
 		<item>flipboard</item>
+        <item>fourshared</item>
+        <item>foursquare</item>
         <item>gallery</item>
 		<item>github</item>
         <item>glamour</item>
+        <item>googleadmin</item>
         <item>googleallo</item>
+        <item>googleanalytics</item>
+        <item>googleanalyticsalt</item>
+        <item>googleapps</item>
         <item>googleauthenticator</item>
         <item>googleboard</item>
         <item>googlecanary</item>
@@ -231,23 +259,32 @@
         <item>googlechromedev</item>
         <item>googleclassroom</item>
         <item>googledocs</item>
+        <item>googledrive</item>
         <item>googleearth</item>
         <item>googlegoggles</item>
         <item>googlehangeout</item>
+        <item>googleio</item>
+        <item>googlehome</item>
         <item>googlekeep</item>
         <item>googlemail</item>
+        <item>googlemaps</item>
         <item>googlemymaps</item>
         <item>googlemaps</item>
         <item>googlenewstand</item>
         <item>googlenow</item>
+        <item>googlenowalt</item>
         <item>googleopinionrewards</item>
+        <item>googlepdf</item>
+        <item>googlephotos</item>
         <item>googleplaygames</item>
         <item>googleplaymusic</item>
         <item>googleplaystore</item>
         <item>googleplus</item>
+        <item>googlerewards</item>
         <item>googlesettings</item>
         <item>googlesheets</item>
         <item>googleslides</item>
+        <item>googletranslate</item>
         <item>googlewallet</item>
         <item>googlezhuyin</item>
 		<item>groupon</item>
@@ -269,66 +306,111 @@
 		<item>maestro</item>
 		<item>mangarock</item>
         <item>mangablitz</item>
+        <item>marvel</item>
         <item>medallion</item>
         <item>mega</item>
+        <item>marvel</item>
+        <item>messaging</item>
+        <item>microsoftaccount</item>
+        <item>microsoftexcel</item>
+        <item>microsoftonenote</item>
+        <item>microsoftpowerpoint</item>
+        <item>microsoftword</item>
         <item>moonshine</item>
         <item>musixmatch</item>
         <item>muzei</item>
 		<item>mxplayer</item>
         <item>netflix</item>
+        <item>newyorktimes</item>
         <item>ninegag</item>
         <item>novalauncher</item>
         <item>novasettings</item>
+        <item>novasettings2</item>
         <item>olx</item>
+        <item>oneweather</item>
+        <item>openvpn</item>
+        <item>opera</item>
+        <item>operamini</item>
+        <item>paypal</item>
         <item>phone</item>
         <item>photoshop</item>
         <item>picsart</item>
         <item>pintererst</item>
+        <item>pocket</item>
         <item>ppsspp</item>
         <item>prisma</item>
+        <item>pushbullet</item>
         <item>quickpic</item>
+        <item>rdio</item>
+        <item>reart</item>
         <item>rec</item>
         <item>settings</item>
+        <item>shareit</item>
         <item>shazam</item>
+        <item>shealth</item>
+        <item>simtoolkit</item>
+        <item>skydrive</item>
         <item>skype</item>
 		<item>smartlauncher</item>
 		<item>smartlauncherpro</item>
 		<item>snapchat</item>
 		<item>snapseed</item>
         <item>sololearn</item>
+        <item>sololearnc</item>
+        <item>sololearncplus</item>
+        <item>sololearnjava</item>
+        <item>sololearnjavascript</item>
+        <item>sololearnpython</item>
+        <item>sololearnsql</item>
         <item>soundcloud</item>
+        <item>soundrecorder</item>
         <item>stumbleupon</item>
 		<item>sunrise</item>
         <item>superbeam</item>
 		<item>supersu</item>
+        <item>supersu2</item>
         <item>swiftkey</item>
         <item>tango</item>
+        <item>tasker</item>
+        <item>taskmanager</item>
         <item>telegram</item>
         <item>teslaunread</item>
+        <item>teslaunreadalt</item>
         <item>theweatherchannel</item>
         <item>tmz</item>
         <item>truecaller</item>
+        <item>truecalleralt</item>
+        <item>tumblr</item>
+        <item>tuneinradio</item>
+        <item>tweetcaster</item>
+        <item>twicca</item>
         <item>twitter</item>
         <item>twogo</item>
         <item>uber</item>
-        <item>uberalt</item>
+        <item>uber2</item>
         <item>ucbrowser</item>
         <item>ucbrowserhd</item>
         <item>ucbrowsermini</item>
         <item>utorrent</item>
 		<item>videoplayer</item>
+        <item>verge</item>
         <item>vevo</item>
         <item>vimeo</item>
         <item>vine</item>
         <item>vlc</item>
         <item>wechat</item>
         <item>whatsapp</item>
+        <item>widgetlocker</item>
         <item>wikipedia</item>
+        <item>wikipediaalt</item>
+        <item>wordpress</item>
         <item>wwe</item>
+        <item>xboxlive</item>
         <item>xboxsmartglass</item>
         <item>xboxsmartglassbeta</item>
         <item>xda</item>
 		<item>yahoo</item>
+        <item>yahooalt</item>
         <item>yelp</item>
         <item>youtube</item>
         <item>youtubegaming</item>
@@ -336,5 +418,6 @@
         <item>zapya</item>
         <item>zedge</item>
         <item>zooper</item>
+        <item>zoto</item>
     </string-array>
 </resources>

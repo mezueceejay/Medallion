@@ -44,7 +44,6 @@ public class ApplyActivityFragment extends Fragment {
             launchers.add(new Launcher(launcher.split("\\|")));
 
         ListView launcherslist = (ListView) root.findViewById(R.id.launcherslist);
-
         LaunchersAdapter adapter = new LaunchersAdapter(launchers);
         launcherslist.setAdapter(adapter);
         launcherslist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -77,7 +76,7 @@ public class ApplyActivityFragment extends Fragment {
 
     private void openLauncher(String name) {
 
-        final String className = "net.mezuestudios.themes.glamour" + ".launchers."
+        final String className = "net.mezuestudios.cct.themes.medallion" + ".launchers."
                 + Character.toUpperCase(name.charAt(0))
                 + name.substring(1).toLowerCase().replace(" ", "").replace("launcher", "")
                 + "Launcher";
@@ -122,6 +121,9 @@ public class ApplyActivityFragment extends Fragment {
         new MaterialDialog.Builder(getActivity())
                 .title(launcher.name + getResources().getString(R.string.lni_title))
                 .content(dialogContent)
+                .backgroundColorRes(R.color.colorPrimary)
+                .titleColorRes(R.color.white)
+                .contentColorRes(R.color.white)
                 .positiveText(R.string.lni_yes)
                 .negativeText(R.string.lni_no)
                 .callback(new MaterialDialog.ButtonCallback() {
@@ -209,6 +211,9 @@ public class ApplyActivityFragment extends Fragment {
         new MaterialDialog.Builder(getActivity())
                 .title(R.string.gnl_title)
                 .content(R.string.gnl_content)
+                .backgroundColorRes(R.color.colorPrimary)
+                .titleColorRes(R.color.white)
+                .contentColorRes(R.color.white)
                 .positiveText(R.string.lni_yes)
                 .negativeText(R.string.lni_no)
                 .callback(new MaterialDialog.ButtonCallback() {

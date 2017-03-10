@@ -19,8 +19,8 @@
 
 <Theme version="1">
     <Label value="Medallion"/>
-    <Wallpaper image="wall_1"/>
-    <LockScreenWallpaper image="wall_1"/>
+    <Wallpaper image="medallion_wall"/>
+    <LockScreenWallpaper image="medallion_wall"/>
     <ThemePreview image="preview1"/>
     <ThemePreviewWork image="preview1"/>
     <ThemePreviewMenu image="preview1"/>
@@ -29,7 +29,7 @@
     <iconback img1="appicon_back"/>
     <iconupon img1="iconupon" />
     <iconmask img1="appicon_mask" />
-    <scale factor="0.5" />
+    <scale factor="0.4" />
 
 <!-- Glamour -->
 <AppIcon

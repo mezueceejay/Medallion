@@ -1,14 +1,59 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.mezuestudios.cct.themes.medallion.AboutActivityFragment"
     tools:showIn="@layout/activity_about">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_margin"
+        android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/medallion_splash"/>
+        <!--Application Name-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="@string/app_name"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold"/>
+        <!--Application Version Code-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/margin_medium_sm"
+                    android:text="@string/app_version"
+                    android:textSize="@dimen/text_med"/>
+        <!--Build Version TextView-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin_medium_sm"
+            android:text="@string/build_version"
+            android:textSize="@dimen/text_med"/>
 
 
-</RelativeLayout>
+        <!--Developer Info-->
+        <!--But you can also delete this and make it the way you like.-->
+        <!--Just truing to make it a bit fast-->
+        <include layout="@layout/developer_info" />
+
+        <!--Libraries-->
+        <!--This also! :)-->
+        <include layout="@layout/library_cards" />
+
+</LinearLayout>
+</ScrollView>
