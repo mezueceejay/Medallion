@@ -38,8 +38,8 @@
     <item drawable="soundrecorder" />
 	<item drawable="simtoolkit"/>
 	<item drawable="videoplayer"/>
-	<item drawable=""/>
-	<item drawable=""/>
+	<item drawable="musicplayer"/>
+	<item drawable="taskmanager"/>
 	<item drawable=""/>
 	<item drawable=""/>
 	<item drawable=""/>

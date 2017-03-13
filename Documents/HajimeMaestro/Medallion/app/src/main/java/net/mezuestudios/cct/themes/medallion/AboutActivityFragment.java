@@ -23,7 +23,7 @@ public class AboutActivityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_about, container, false);
-//        Amazon OnClicklistener
+        //     Amazon OnClicklistener
         RelativeLayout amazon = (RelativeLayout) rootView.findViewById(R.id.amazon_layout);
         amazon.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +32,8 @@ public class AboutActivityFragment extends Fragment {
                 startActivity(amazonweb);
             }
         });
+
+
         RelativeLayout email_developer = (RelativeLayout) rootView.findViewById(R.id.feedback_layout);
         email_developer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +42,7 @@ public class AboutActivityFragment extends Fragment {
                 email_developerweb.setData(Uri.parse("email"));
                 email_developerweb.setType("message/rfc822");
                 email_developerweb.setType("text/plain");
-                String[] s={"mezuestudios@gmail.com","okochaebube@gmail.com", "ceejaymezue8@gmail.com"};
+                String s = "mezuestudios@gmail.com";
                 email_developerweb.putExtra(Intent.EXTRA_EMAIL,s);
                 email_developerweb.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.email_subject));
                 email_developerweb.putExtra(Intent.EXTRA_TEXT, getString(R.string.email_text));

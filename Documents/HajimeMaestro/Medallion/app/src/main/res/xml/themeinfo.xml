@@ -25,5 +25,5 @@
     <!-- Default Component Color -->
     <themePointColor>#121212</themePointColor>
     <themePreview img1="preview1" />
-    <preview img1="preview1" img2="preview2" img3="preview3"/>
+    <preview img1="preview1" img2="preview2" img3="preview3" img4="preview4"/>
 </themeInfo>

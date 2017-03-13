@@ -19,14 +19,22 @@
     <!--Application Name-->
     <string name="app_name">Medallion</string>
     <!--Application Version No-->
-    <string name="app_version">Version: 1.0.0</string>
-    <string name="build_version">Build Number: 100</string>
+    <string name="app_version">Version: 1.0.1</string>
+    <string name="build_version">Build Number: 101</string>
+    <string name="changelog_version1">Version: 1.0.0</string>
+    <string name="initial">Initial Release</string>
+    <string name="changelog_version11">Version: 1.0.1</string>
+    <string name="added1">Added 20+ Icons</string>
+    <string name="fixed1">Fixed Supported Launchers</string>
+
     <!-- Feature picture that appears above the description -->
     <string name="theme_feature">medallion_banner</string>
+
     <!-- Previews Pictures Names -->
     <string name="theme_preview1">preview1</string>
     <string name="theme_preview2">preview2</string>
     <string name="theme_preview3">preview3</string>
+    <string name="theme_preview4">preview4</string>
     <!--Application Package Name-->
     <string name="package_name">"net.mezuestudios.cct.themes.medallion"</string>
     <!--Theme Description-->
@@ -89,20 +97,12 @@
     <string name="wallpaper_error">Error Setting Wallpaper</string>
 
 
-    <!--IconsActivity-->
-    <string-array name="tabs">
-        <item>LATEST</item>
-        <item>SYSTEM</item>
-        <item>GOOGLE</item>
-        <item>GAMES</item>
-        <item>ALL</item>
-        <item>DRAWER</item>
-    </string-array>
+
 
     <!-- LauncherNotInstalled Dialog -->
-    <string name="lni_title"> Not Installed</string>
-    <string name="lni_content"> is currently not installed in your device.\nWould you like to install it from Google Play Store?</string>
-    <string name="cm_dialog_content"> is part of CyanogenMod (based) roms.\nWould you like to install it in your device?</string>
+    <string name="lni_title">  Not Installed</string>
+    <string name="lni_content">  is currently not installed in your device.\nWould you like to install it from Google Play Store?</string>
+    <string name="cm_dialog_content">  is part of CyanogenMod (based) roms.\nWould you like to install it in your device?</string>
     <string name="gnl_title">Google Now Launcher Not Compatible</string>
     <string name="gnl_content">Google Now Launcher is NOT compatible with ANY Icon Packs. Please don\'t low rate the pack for this reason. There\'s a workaround that you can try by yourself, and it\'s the use of an external app that will help you apply the icons. Would you like to download it?</string>
     <string name="extraapp">com.momocode.shortcuts</string>

@@ -65,9 +65,11 @@
         <item>downloads1</item>
         <item>filemanager</item>
 		<item>messaging</item>
+        <item>musicplayer</item>
         <item>phone</item>
         <item>settings</item>
 		<item>simtoolkit</item>
+        <item>taskmanager</item>
         <item>voicesearch</item>
 		<item>videoplayer</item>
 		<item>andy</item>

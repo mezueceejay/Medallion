@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="net.mezuestudios.cct.themes.medallion">
-    <!-- For Ads -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    package="net.mezuestudios.cct.themes.medallion"
+    android:installLocation="auto">
+
     <!-- For Applying Wallpaper -->
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
     <!-- Supporting Different Android Screens -->
     <supports-screens
         android:anyDensity="true"
@@ -113,7 +110,6 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="org.adw.launcher.THEMES" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -141,12 +137,10 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="com.novalauncher.THEME" />
-
                 <category android:name="com.novalauncher.category.CUSTOM_ICON_PICKER" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="com.fede.launcher.THEME_ICONPACK" />
             </intent-filter>
             <intent-filter>
@@ -157,7 +151,6 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="com.phonemetra.turbo.launcher.icons.ACTION_PICK_ICON" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -166,7 +159,6 @@
                 <action android:name="ginlemon.smartlauncher.BUBBLEICONS" />
                 <action android:name="ginlemon.smartlauncher.CLOCKS" />
                 <action android:name="ginlemon.smartlauncher.CLOCKFONTS" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -180,7 +172,6 @@
                 <action android:name="mobi.bbase.ahome.THEME" />
                 <action android:name="com.rogro.GDE.THEME.1" />
                 <action android:name="com.android.dxtop.launcher.THEME" />
-
                 <category android:name="com.fede.launcher.THEME_ICONPACK" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -188,7 +179,6 @@
                 <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
                 <action android:name="mobi.bbase.ahome.THEME" />
                 <action android:name="com.rogro.GDE.THEME.1" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
