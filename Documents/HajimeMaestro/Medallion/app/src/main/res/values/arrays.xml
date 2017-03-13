@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--IconsActivity-->
+    <string-array name="tabs">
+        <item>LATEST</item>
+        <item>SYSTEM</item>
+        <item>GOOGLE</item>
+        <item>GAMES</item>
+        <item>ALL</item>
+        <item>DRAWER</item>
+    </string-array>
+
+</resources>

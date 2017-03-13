@@ -42,4 +42,46 @@
     <bool name="manager_smart">true</bool>
     <bool name="manager_solo">true</bool>
 
+    <!--ADW Launcher Skin Theme-->
+    <string name="overall_theme">1</string>
+    <!--0: Light theme-->
+    <!--1: Dark theme-->
+    <!--2: Wallpaper theme-->
+    <integer name="dock_icon_scale">8</integer>
+    <!--Values range: from 5 to 15 (meaning from 50% to 150% of the regular icon size).-->
+    <string name="folder_preview_style">4</string>
+    <!--1: Stack previews-->
+    <!--2: Fan previews-->
+    <!--3: Grid previews-->
+    <!--4: Cards previews-->
+    <!--5: Line previews-->
+    <!--6: Dynamic Grid previews-->
+    <string name="folder_iconbg_style">3</string>
+    <!--0: Circle-->
+    <!--1: Square-->
+    <!--2: Plate-->
+    <!--3: Hole-->
+    <!--4: Light Circle-->
+    <!--5: Window-->
+    <!--6: Dark Window-->
+    <drawable name="all_apps_button">@drawable/appdrawer</drawable>
+    <!--all_apps_button: Open/close App Drawer-->
+    <!--movetodefault_button: Move to default screen-->
+    <!--showpreviews_button: Show desktop previews-->
+    <!--showhidestatusbar_button: Show/Hide the statusbar-->
+    <!--openclosenotifications_button: Open the notifications panel-->
+    <!--openclosedockbar_button: Show/Hide the App Dock-->
+    <!--opencloseactionbar_button: Show/Hide the ActionBar-->
+    <!--adwsettings_button: Open ADWSettings-->
+    <!--showcategory_button: Show an App Drawer Group-->
+    <!--movetoscreen_button: Move to an specific screen-->
+    <!--adw_config: Show the ADW Setup Grid-->
+    <!--openclosenotifsettings_button: Open the quick settings panel (android 4.2+)-->
+    <!--nextscreen_button: Scroll to the next screen-->
+    <!--previousscreen_button: Scroll to the previous screen-->
+
+
+
+
+
 </resources>

@@ -20,13 +20,17 @@
 
     <string-array name="launchers">
         <item>Action Launcher|com.actionlauncher.playstore</item>
-        <item>ADW Launcher|org.adw.launcher</item>
-        <item>ADW EX Launcher|org.adwfreak.launcher</item>
+        <item>ADW EX Launcher|org.adw.launcher</item>
         <item>Apex Launcher|com.anddoes.launcher</item>
         <item>Atom Launcher|com.dlto.atom.launcher</item>
+        <item>Aviate|com.tul.aviate</item>
         <item>Go Launcher|com.gau.go.launcherex</item>
+        <item>Holo|com.mobint.hololauncher</item>
+        <item>KK|com.kk.launcher</item>
         <item>L Launcher|com.l.launcher</item>
         <item>LG Home|com.lge.launcher2</item>
+        <item>Lucid|com.powerpoint45.launcher</item>
+        <item>Mini|com.jiubang.go.mini.launcher</item>
         <item>Nova Launcher|com.teslacoilsw.launcher</item>
         <item>S Launcher|com.s.launcher</item>
         <item>Smart Launcher|ginlemon.flowerfree</item>

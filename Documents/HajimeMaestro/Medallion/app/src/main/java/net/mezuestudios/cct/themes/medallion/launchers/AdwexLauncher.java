@@ -5,8 +5,8 @@ import android.content.Intent;
 
 public class AdwexLauncher {
     public AdwexLauncher(Context context) {
-        Intent intent = new Intent("org.adwfreak.launcher.SET_THEME");
-        intent.putExtra("org.adwfreak.launcher.theme.NAME", context.getPackageName());
+        Intent intent = new Intent("org.adw.launcher.SET_THEME");
+        intent.putExtra("org.adw.launcher.theme.NAME", context.getPackageName());
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }

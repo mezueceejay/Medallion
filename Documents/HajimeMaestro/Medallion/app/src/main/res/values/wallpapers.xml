@@ -23,6 +23,7 @@
     </string-array>
     <!-- This wallpaper will be used when a user applies the theme -->
     <string name="default_wallpaper">medallion_wall</string>
+    <string name="theme_wallpaper">medallion_wall</string>
     <string-array name="wallpaperlist">
         <item>medallion_wall</item>
     </string-array>

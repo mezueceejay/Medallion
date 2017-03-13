@@ -2,6 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="none"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:background="@color/colorPrimary"
     tools:context="net.mezuestudios.cct.themes.medallion.AboutActivityFragment"
     tools:showIn="@layout/activity_about">
